@@ -11,17 +11,66 @@
 console.log('Debug prima del ciclo ok');
 
 for (let i = 1; i <= 100; i++) {
+    let div = document.createElement('div');
+
+    document.getElementById('container').append(div);
+
     if ((i % 3 === 0) && (i % 5 === 0)) {
-        console.log('FizzBuzz');
+        div.innerHTML = 'FizzBuzz';
+
+        div = div.style.cssText = `
+            width: calc(1200px / 7);
+            height: calc(1200px / 7);
+            border: 1px solid black;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+            
+        `;
     }
     else if (i % 3 === 0) {
-        console.log('Fizz');
+        div.innerHTML = 'Fizz';
+
+        div = div.style.cssText = `
+            width: calc(1200px / 7);
+            height: calc(1200px / 7);
+            border: 1px solid black;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+        `;
     }
     else if (i % 5 === 0) {
-        console.log('Buzz');
+        div.innerHTML = 'Buzz';
+
+        div = div.style.cssText = `
+            width: calc(1200px / 7);
+            height: calc(1200px / 7);
+            border: 1px solid black;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: orange;
+        `;
     }
     else {
-        console.log(i);
+        div.innerHTML = i;
+
+        div = div.style.cssText = `
+            width: calc(1200px / 7);
+            height: calc(1200px / 7);
+            border: 1px solid black;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+        `;
     }
 }
 
