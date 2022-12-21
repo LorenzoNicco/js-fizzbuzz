@@ -19,12 +19,11 @@ for (let i = 1; i <= 100; i++) {
         div.innerHTML = 'FizzBuzz';
 
         div = div.style.cssText = `
-            width: calc((1200px / 7) - 20px);
-            height: calc((1200px / 7) - 20px);
+            width: calc((1200px / 10) - 20px);
+            height: calc((1200px / 10) - 20px);
             margin: 10px;
             border: 1px solid black;
             font-weight: bolder;
-            font-size: 2rem;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -36,12 +35,11 @@ for (let i = 1; i <= 100; i++) {
         div.innerHTML = 'Fizz';
 
         div = div.style.cssText = `
-            width: calc((1200px / 7) - 20px);
-            height: calc((1200px / 7) - 20px);
+            width: calc((1200px / 10) - 20px);
+            height: calc((1200px / 10) - 20px);
             margin: 10px;
             border: 1px solid black;
             font-weight: bolder;
-            font-size: 2rem;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -52,12 +50,11 @@ for (let i = 1; i <= 100; i++) {
         div.innerHTML = 'Buzz';
 
         div = div.style.cssText = `
-            width: calc((1200px / 7) - 20px);
-            height: calc((1200px / 7) - 20px);
+            width: calc((1200px / 10) - 20px);
+            height: calc((1200px / 10) - 20px);
             margin: 10px;
             border: 1px solid black;
             font-weight: bolder;
-            font-size: 2rem;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -68,12 +65,11 @@ for (let i = 1; i <= 100; i++) {
         div.innerHTML = i;
 
         div = div.style.cssText = `
-            width: calc((1200px / 7) - 20px);
-            height: calc((1200px / 7) - 20px);
+            width: calc((1200px / 10) - 20px);
+            height: calc((1200px / 10) - 20px);
             margin: 10px;
             border: 1px solid black;
             font-weight: bolder;
-            font-size: 2rem;
             display: flex;
             justify-content: center;
             align-items: center;
