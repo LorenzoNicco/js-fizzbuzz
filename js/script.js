@@ -6,3 +6,10 @@
     5. Usare if per modificare i numeri di 3 e 5 insieme
 */
 
+console.log('Debug prima del ciclo ok');
+
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+}
+
+console.log('Debug dopo il ciclo ok');
